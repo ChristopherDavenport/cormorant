@@ -177,7 +177,7 @@ lazy val docs = project.in(file("modules"))
         "gray-lighter" -> "#F4F3F4",
         "white-color" -> "#FFFFFF"
       ),
-      libraryDependencies += "com.47deg" %% "github4s" % "0.28.1",
+      libraryDependencies += "com.47deg" %% "github4s" % "0.28.5",
       micrositePushSiteWith := GitHub4s,
       micrositeGithubToken := sys.env.get("GITHUB_TOKEN"),
       micrositeExtraMdFiles := Map(
