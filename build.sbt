@@ -86,7 +86,7 @@ val shapelessV = "2.3.3"
 val http4sV = "0.23.0-RC1"
 val catsScalacheckV = "0.3.0"
 val munitV = "0.7.26"
-val munitCatsEffectV = "1.0.3"
+val munitCatsEffectV = "1.0.5"
 val scalacheckEffectV = "1.0.2"
 
 lazy val core = project.in(file("modules/core"))
