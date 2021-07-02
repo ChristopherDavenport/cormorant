@@ -85,7 +85,7 @@ val fs2V = "3.0.4"
 val shapelessV = "2.3.3"
 val http4sV = "0.23.0-RC1"
 val catsScalacheckV = "0.3.0"
-val munitV = "0.7.26"
+val munitV = "0.7.27"
 val munitCatsEffectV = "1.0.3"
 val scalacheckEffectV = "1.0.2"
 
