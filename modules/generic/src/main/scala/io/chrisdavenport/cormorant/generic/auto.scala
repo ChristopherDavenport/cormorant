@@ -10,7 +10,8 @@ object auto
   extends internal.LabelledReadProofs 
   with internal.LabelledWriteProofs
   with internal.ReadProofs
-  with internal.WriteProofs{
+  with internal.WriteProofs
+  with internal.TaggedProofs {
 
   implicit def deriveWrite[A, R](
     implicit gen: Generic.Aux[A, R],
